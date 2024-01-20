@@ -15,7 +15,7 @@ def get_modules():
 def get_me():
     my_info = {
         "Prn": 230944223005,
-        "name": "Aaaaayush Maindolia",
+        "name": "Ayush Maindolia",
         "Phone": 7253048433
     }
     return jsonify(my_info)
