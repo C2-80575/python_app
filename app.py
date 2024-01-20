@@ -20,6 +20,5 @@ def get_me():
     }
     return jsonify(my_info)
 
-if __name__ == '__main__':
-    app.run(debug=True)
 
+app.run(port=4000, host="0.0.0.0")
