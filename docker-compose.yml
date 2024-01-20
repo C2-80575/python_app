@@ -1,0 +1,9 @@
+# docker-compose.yml
+version: '3'
+
+services:
+  python_app:
+    image: amritesh21/python_app:latest
+    ports:
+      - "4000:5000"
+
